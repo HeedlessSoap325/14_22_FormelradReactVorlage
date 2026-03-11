@@ -11,8 +11,7 @@ export default function Formelrad() {
         p: "",
         message: ""
     })
-
-    const handleClear = (event) => {
+    
     const [colors, setColors] = useState({
         u: "black",
         i: "black",
